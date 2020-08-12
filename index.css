@@ -1,0 +1,246 @@
+body {
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: roboto;
+}
+
+.logo {
+    width: 200px;
+    height: 90px;
+    margin-left: 5px;
+}
+
+.cabecera {
+    height: 100px;
+    width: 50%;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff952;
+    border-radius: 5px;
+}
+
+.fondoarriba {
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* todo el menu del costadito */
+
+.menu {
+    align-self: center;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.menu ul li {
+    /* border: 1px solid black; */
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff952;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.menu ul li:hover {
+    opacity: 50%;
+}
+
+
+/* termina menu */
+
+
+/* para manejar las filas y columnas de la grilla
+se utiliza el archivo grid.css */
+
+.grilla {
+    width: 100%;
+    min-width: 350px;
+    max-width: 2000px;
+    margin: auto;
+    text-align: center;
+    height: 600px;
+    align-self: auto;
+}
+
+
+/* tarjetas artista */
+
+.artista {
+    height: 500px;
+    background-color: #212121;
+    width: 340px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fotoArt {
+    height: 250px;
+    width: 340px;
+    border-radius: 2px;
+}
+
+.boton1 {
+    transition: 1s;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.comprar:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 1px 1px #d6db85;
+}
+
+.comprar {
+    background-color: #fff952;
+    color: black;
+}
+
+
+/* parte de abajo */
+
+.info p {
+    text-align: center;
+}
+
+.info {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondoInfo {
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* Fondos de infos */
+
+.fondo1 {
+    background-image: url(assets/background2.jpg);
+}
+
+.layer1 {
+    background-color: rgba(74, 133, 62, 0.3);
+    width: 100%;
+    height: 100%;
+}
+
+.fondo2 {
+    background-image: url(assets/background3.jpg);
+}
+
+.suscripcion {
+    background-color: #fff952;
+    color: black;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btnSuscripcion {
+    height: 50px;
+    background-color: #212121;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.email {
+    background-color: #616161;
+    border: 1px #616161 solid;
+    color: white;
+    height: 30px;
+}
+
+.formularioSuscripcion {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-evenly;
+    height: 290px;
+}
+
+.formularioSuscripcion p {
+    text-align: center;
+}
+
+
+/* pie de pagina */
+
+.pieDePagina {
+    width: 100%;
+    background-color: #212121;
+    color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.pieDePagina p {
+    text-align: center;
+}
+
+@media (max-width: 1400px) and (min-width: 720px) {
+    .grilla {
+        height: 1200px;
+    }
+}
+
+@media (max-width: 720px) {
+    .logo {
+        width: 310px;
+        height: 100px;
+    }
+    .grilla {
+        height: 2300px;
+    }
+    .cabecera {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 50px;
+        height: 200px;
+        min-width: 0px;
+        width: 100%;
+    }
+    .grilla {
+        margin: 0px;
+    }
+}

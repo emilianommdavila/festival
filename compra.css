@@ -1,0 +1,92 @@
+.cabeceraCompra {
+    position: absolute;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    width: 100%;
+    height: 1000px;
+}
+
+.fotoCompra {
+    background-image: url(assets/imgCompra/bowie.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fondoCompra {
+    background-color: #212121;
+}
+
+.formularioCompra {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    justify-content: space-between;
+    background-color: #424242;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenedorFormularioCompra {
+    display: flex;
+    justify-content: center;
+}
+
+.infoCompra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cantidad {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px rgb(119, 114, 114) solid;
+    color: white;
+    background-color: #1f1e1e;
+    width: 90px;
+    align-self: center;
+}
+
+.comprarEntrada {
+    height: 100px;
+    background-color: #fff952;
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    /* border-radius: 5px; */
+    border: none;
+    width: 300px;
+}
+
+@media (max-width: 1400px) and (min-width: 720px) {
+    .container {
+        grid-template-columns: 10fr;
+        width: 100%;
+        height: 1000px;
+        grid-template-rows: 500px 500px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        grid-template-columns: 10fr;
+        width: 100%;
+        height: 1000px;
+        grid-template-rows: 300px 500px;
+    }
+    .fondoCompra {
+        background-image: url(assets/imgCompra/bowie.jpg);
+    }
+    .fotoCompra {
+        height: 0px;
+        width: 0px;
+    }
+}
