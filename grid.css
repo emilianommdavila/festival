@@ -24,11 +24,11 @@
     }
     .grillaInfoDerecha {
         grid-template-columns: 8fr;
-        grid-template-rows: 100px 200px;
+        grid-template-rows: 150px 200px;
     }
     .grillaInfoIzquierda {
         grid-template-columns: 6fr;
-        grid-template-rows: 300px 100px;
+        grid-template-rows: 300px 150px;
     }
 }
 

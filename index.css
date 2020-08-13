@@ -243,4 +243,7 @@ se utiliza el archivo grid.css */
     .grilla {
         margin: 0px;
     }
+    .artista {
+        margin-top: 0px;
+    }
 }
