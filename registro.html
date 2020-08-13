@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="grid.css">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="registro.css">
 </head>
 
 <body class="fondoarriba">
@@ -20,10 +20,13 @@
 </body>
 <div class="contenedorLogin">
     <div class="imgProfile"></div>
-    <p class="txtLogin">Iniciar Sesión</p>
+    <p class="txtLogin">Registrarse</p>
     <form action="index.html" class="formulario">
+        <input type="text" class="datos" name="nombre" placeholder="Nombre" id="">
+        <input type="text" class="datos" name="apellido" placeholder="Apellido" id="">
         <input type="email" class="datos" name="Email" placeholder="Email" id="">
         <input type="password" class="datos" name="Password" placeholder="Contraseña" id="">
+
         <input type="submit" class="entrar" value="Entrar">
         <input type="button" id="olvide" value="Olvidé mi contraseña">
     </form>
