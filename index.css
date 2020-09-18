@@ -76,7 +76,7 @@ se utiliza el archivo grid.css */
 
 .grilla {
     width: 100%;
-    min-width: 350px;
+    min-width: 320px;
     max-width: 2000px;
     margin: auto;
     text-align: center;
@@ -246,13 +246,18 @@ se utiliza el archivo grid.css */
         height: 100px;
         min-width: 0px;
         width: 100%;
-        min-width: 320px;
     }
     .grilla {
         margin: 0px;
     }
     .artista {
         margin-top: 0px;
+        width: 320px;
+    }
+    .fotoArt {
+        height: 235px;
+        width: 320px;
+        border-radius: 2px;
     }
     .menu ul li {
         height: 20px;

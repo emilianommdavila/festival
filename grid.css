@@ -34,7 +34,7 @@
 
 @media (max-width: 1400px) and (min-width: 720px) {
     .grilla {
-        grid-template-columns: 6fr;
+        grid-template-columns: 6fr 6fr;
         grid-template-rows: 520px;
         grid-gap: 20px;
     }
